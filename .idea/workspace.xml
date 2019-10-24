@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66570ec4-49ab-4463-aa18-b7433e455f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadBooks/tts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/.styleci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReadBooks/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ReadBooks/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/database/seeds/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/js/components/ExampleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadBooks/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571944934849</updated>
-      <workItem from="1571944937228" duration="1871000" />
+      <workItem from="1571944937228" duration="2060000" />
     </task>
     <servers />
   </component>
