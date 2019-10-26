@@ -1,3 +1,4 @@
 /.idea/*
-/node_modules/*
-/ReadBooks/vendor/
+public/node_modules/*
+public/ReadBooks/vendor/*
+home/*

@@ -1,1 +1,1 @@
-export GOOGLE_APPLICATION_CREDENTIALS="/home/heather/GoogleKeys/TTS/IWP Backup-7252064994dd.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/home/IWP Backup-7252064994dd.json"

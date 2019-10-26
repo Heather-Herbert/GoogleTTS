@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  workspace:
+    image: universityofabdn/docker-php71-workspace
+    volumes:
+    - ${HOST_APP_PATH}:/var/www
+    - ${HOST_HOME_PATH}:/home
+    extra_hosts:
+    - "dockerhost:${HOST_IP}"
+    tty: true
+    environment:
+    - LD_LIBRARY_PATH=${LD_LIBRARY_PATH}
+    - PUBLIC_ROOT=${PUBLIC_ROOT}
+    networks:
+    - app
+  web:
+    image: universityofabdn/docker-php71
+    ports:
+    - 127.0.0.1:${HOST_PORT_HTTP}:80
+    - 127.0.0.1:${HOST_PORT_HTTPS}:443
+    - 127.0.0.1:${HOST_PORT_ORACLE}:1521
+    volumes:
+    - ${HOST_APP_PATH}:/var/www
+    extra_hosts:
+    - "dockerhost:${HOST_IP}"
+    environment:
+    - LD_LIBRARY_PATH=${LD_LIBRARY_PATH}
+    - PUBLIC_ROOT=${PUBLIC_ROOT}
+    - SERVER_NAME=${SERVER_NAME}
+    networks:
+    - app
+  mariadb:
+    image: mariadb:5.5
+    environment:
+    - MYSQL_ROOT_PASSWORD=
+    - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+    ports:
+    - ${HOST_PORT_MYSQL}:3306
+    volumes:
+    - ./docker/mariadb-conf:/etc/mysql/conf.d
+    networks:
+    - app
+
+networks:
+  app:
+    driver: bridge
