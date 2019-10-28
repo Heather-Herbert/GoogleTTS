@@ -1,8 +1,8 @@
 <?php
-namespace MI;
+namespace ML;
 
 // includes the autoloader for libraries installed with composer
-require __DIR__ . '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 
 // Imports the Cloud Client Library
@@ -40,7 +40,7 @@ class GoogleTTS
             (new VoiceSelectionParams())
             ->setLanguageCode('en-GB')
             ->setSsmlGender(SsmlVoiceGender::FEMALE)
-            ->setName('en-GB-Wavenet-A');
+            ->setName('en-GB-Standard-A');
     }
 
     private function downloadMP3($text = 'Hello, world!'): string
