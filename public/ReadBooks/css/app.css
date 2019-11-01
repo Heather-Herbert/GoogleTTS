@@ -1,6 +1,11 @@
-header{
-    background-color: #8000FF;
-    color: #FFFFFF;
-    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-    font-weight: bold;
+header {
+  background-color: #8000FF;
+  color: #FFF;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+  font-weight: bold;
+  font-size: 5vh;
+  height: 8vh;
+  min-height: 25px;
 }
+
+/*# sourceMappingURL=app.css.map */

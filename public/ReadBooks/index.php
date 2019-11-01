@@ -24,10 +24,11 @@ if (isset($_POST['story'])) {
     <title></title>
 </head>
 <body>
+<header>
+    Audiobook encoder
+</header>
 <div class="container">
-    <header>
-        Audiobook encoder
-    </header>
+
     <main>
         <form action="#" method="POST">
             <div class="form-group">
